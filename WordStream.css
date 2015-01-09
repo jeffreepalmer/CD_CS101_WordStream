@@ -24,20 +24,40 @@ a {
 			display: inline-block;
 			height: 75px;
 			width: 400px;
-			background-color: red;
+			background-color: white;
+			vertical-align: top;
 		}
+			#logoWord{
+				color: gray;
+				font-size: 24px;
+				vertical-align: top;
+			}
+			#logoStream{
+				color: #1E6FAF;
+				font-size: 24px;
+				vertical-align: top;
+			}
 		.nav{
 			display: inline-block;
+			vertical-align: top;
 			height: 30px;
 			width: 500px;
 			margin-left: 90px;
 			margin-bottom: 45px;
 			background-color: green;
 		}
+			.nav ul{
+				display: inline;
+			}
+			.nav ul li{
+				display: inline;
+				list-style-type: none;
+			}
 		.banner{
 			width: 1000px;
 			height: 50px;
-			background-color: blue;
+			background-color: #1E6FAF;
+			color: white;
 	}
 	.content{
 		width: 1000px;
