@@ -1,8 +1,14 @@
+body {
+	padding: 0;
+	margin: 0;
+}
 h1{
 	color: #1E6FAF;
 	font-size: 16px;
 }
 h2{
+	color: #1E6FAF;
+	font-size: 13px;
 
 }
 a {
@@ -10,11 +16,13 @@ a {
 }
 .bold{
 	font-weight: 600;
+	color: black;
 }
 .wholeShebang{
 	width: 100%;
 	font-family: Verdana;
 	font-size: 12px;
+	line-height: 18px;
 	padding: 0px;
 	margin: 0px;
 }
@@ -30,6 +38,7 @@ a {
 	width: 400px;
 	background-color: white;
 	vertical-align: top;
+	margin-left: 10px;
 }
 #logoImg{
 	width: 67px;
@@ -57,7 +66,7 @@ a {
 	width: 320px;
 	margin-top: 0px;
 	padding: 0px;
-	margin-left: 90px;
+	margin-left: 150px;
 	margin-bottom: 45px;
 	background-color: #F8F7FC;
 	border-left: 1px solid;
@@ -97,6 +106,8 @@ a {
 	color: white;
 	font-size: 12px;
 	border-radius: 3px;
+	margin-left: 15px;
+	padding-top: 2px;
 }
 .banner{
 	width: 1000px;
@@ -123,37 +134,112 @@ a {
 	display: inline-block;
 	height: 700px;
 	width: 200px;
+	margin: 60px 10px 0px 10px;
 	background-color: white;
 }
+.sideBar a{
+	text-decoration: none;
+}
 #sideBarTitle{
-	color: #6C9DBD;
-	font-size: 18px;
+	color: #1E6FAF;
+	font-size: 16px;
+}
+#sideBarRedText{
+	color: #DD4800;
+	font-size: 10px;
+	font-weight: bold;
+}
+#sideBarSchedule{
+	width: 190px;
+	height: 20px;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1e5799 0%, #207cca 36%, #2989d8 60%, #2989d8 65%, #2989d8 71%, #207cca 100%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(36%,#207cca), color-stop(60%,#2989d8), color-stop(65%,#2989d8), color-stop(71%,#2989d8), color-stop(100%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#207cca 36%,#2989d8 60%,#2989d8 65%,#2989d8 71%,#207cca 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1e5799 0%,#207cca 36%,#2989d8 60%,#2989d8 65%,#2989d8 71%,#207cca 100%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1e5799 0%,#207cca 36%,#2989d8 60%,#2989d8 65%,#2989d8 71%,#207cca 100%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1e5799 0%,#207cca 36%,#2989d8 60%,#2989d8 65%,#2989d8 71%,#207cca 100%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+#sideBarFreeTrial{
+	width: 190px;
+	height: 20px;
+	background: #e0ab6b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e0ab6b 0%, #e24903 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0ab6b), color-stop(100%,#e24903)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e0ab6b 0%,#e24903 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e0ab6b 0%,#e24903 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e0ab6b 0%,#e24903 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e0ab6b 0%,#e24903 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0ab6b', endColorstr='#e24903',GradientType=0 ); /* IE6-9 */
+	text-align: center;
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+	border-radius: 5px;
+	padding-top: 5px;
+}
+#noCreditCard{
+	text-align: center;
+	font-size: 11px;
+}
+#graderAd{
+	width: 188px;
+	height: 230px;
+	background-image: url("images/left_content_ad.png");
+	padding: 5px;
+}
+#adWordsPerformance{
+	font-size: 14px;
+	color: #1E6FAF;
+	font-weight: bold;
+}
+#getGraded{
+	width: 170px;
+	height: 25px;
+	background-color: #255B8B;
+	color: white;
+	text-align: center;
+	margin-left: 6px;
+	padding-top: 5px;
+	border-radius: 4px;
 }
 .main{
 	vertical-align: top;
 	display: inline-block;
 	height: 700px;
-	width: 795px;
+	width: 760px;
 	background-color: white;
 }
 .crumbPhone{
 	vertical-align: top;	
 	display: inline-block;
-	height: 100px;
+	height: 90px;
 	width: 795px;
 	margin: 0px;
 	padding: 0px;
 	background-color: white;
-	border-bottom: 1px solid #1E6FAF;
+	border-bottom: 1px solid #828285;
 }
 .crumb{
-	height: 90px;
+	height: 70px;
 	width: 80px;
 	vertical-align: top;
 	display: inline-block;
+	padding-top: 10px;
 }
 .crumb p{
 	display: inline;
+	color: #287FAE;
+	font-size: 14px;
+
 }
 #homeImg{
 	width: 41px;
@@ -161,16 +247,44 @@ a {
 	margin-top: 5px;
 	padding: 0px;
 	display: inline;
+	vertical-align: -5px;
 }
 .phone{
 	vertical-align: top;
 	display: inline-block;
-	margin-left: 100px;
-	height: 90px;
-	width: 100px;
+	margin-left: 300px;
+	height: 80px;
+	width: 400px;
 }
-#homeImg{
+#phoneImg{
 	vertical-align: top;
+	width: 22px;
+	height: 42px;
+	margin-right: 3px;
+	padding-top: 4px;
+
+}
+.phoneText{
+	display: inline-block;
+	width: 170px;
+	height: 70px; 
+	padding-top: 4px;
+}
+.phone p{
+	margin: 0;
+}
+.phoneSmallText{
+	font-size: 10px;
+	color: #828285;
+	padding: 0px;
+	margin: 0px;
+}
+.phoneNumber{
+	color: #49ADDF;
+	font-size: 22px;
+	font-weight: 550;
+	padding: 0px;
+	margin: 0px;
 }
 .ppc_marketing{
 	display: block;
@@ -178,14 +292,19 @@ a {
 	width: 795px;
 	background-color: white;
 }
+.ppc_marketing ul{
+	list-style: square;
+	color: #1E6FAF;
+}
+.ppc_text{
+	color:black;
+}
 #driveMore{
 	display: inline-block;
 	height: 150px;
 	width: 750px;
 	border: 5px solid #87B4D1;
-	padding: 2px 20px 2px 2px;
-	vertical-align: top;
-	font-size: 14px;
+	padding: 2px 2px 2px 2px;
 }
 #driveMoreBigText{
 	color: #1E6FAF;
@@ -193,8 +312,19 @@ a {
 	display: inline-block;
 }
 #checkeredFlag{
-	display: inline-block;
+	display: inline;
 	vertical-align: text-top;
+}
+#driveMoreText{
+	vertical-align: top;
+	display: inline-block;
+	width: 680px;
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+	font-size: 14px;
+
 }
 #driveMore p{
 	display: inline-block;
@@ -202,8 +332,8 @@ a {
 }
 #getStarted{
 	border-radius: 5px;
-	height: 35px;
-	width: 150px;
+	height: 30px;
+	width: 180px;
 	border: 1px solid green;
 	background: #9dd53a; /* Old browsers */
 	background: -moz-linear-gradient(top,  #9dd53a 0%, #a1d54f 27%, #80c217 51%, #a1d54f 100%, #7cbc0a 100%); /* FF3.6+ */
@@ -215,7 +345,6 @@ a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
 	color: white;
 	text-align: center;
-	font-stretch: ultra-condensed;
 	padding-top: 10px;
 }
 
